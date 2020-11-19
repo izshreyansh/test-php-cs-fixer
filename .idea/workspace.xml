@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5ad95d2-ced9-4340-a113-996525edd324" name="Default Changelist" comment="" />
+    <list default="true" id="c5ad95d2-ced9-4340-a113-996525edd324" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/lint.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/lint.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +37,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605795189090</updated>
-      <workItem from="1605795190237" duration="431000" />
+      <workItem from="1605795190237" duration="762000" />
     </task>
     <servers />
   </component>
