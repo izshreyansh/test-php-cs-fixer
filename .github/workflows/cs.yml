@@ -13,8 +13,7 @@ jobs:
           dir: './' 
 
     - name: Extract branch name
-      shell: bash
-      run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+      run: bash <(echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})")
       id: extract_branch
 
     - name: Commit changes
