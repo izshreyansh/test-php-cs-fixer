@@ -11,3 +11,14 @@ jobs:
       uses: StephaneBour/actions-php-cs-fixer@1.0
       with:
           dir: './' 
+
+    - name: Extract branch name
+      shell: bash
+      run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+      id: extract_branch
+
+    - name: Commit changes
+      uses: stefanzweifel/git-auto-commit-action@v2.3.0
+      with:
+        commit_message: Fix styling
+        branch: ${{ steps.extract_branch.outputs.branch }}
