@@ -2,6 +2,6 @@
 
 class Car
 {
-protected $engine = 'V1';
-protected $make = 'LMV';
+    protected $engine = 'V1';
+    protected $make = 'LMV';
 }
